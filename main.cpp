@@ -9,7 +9,7 @@
 /**
  * Clean memory from vector of shapes
  * @param shapes vector of shapes
- */git
+ */
 void cleanMemory(std::vector<Shape*> shapes) {
     for(Shape* shape : shapes) {
         delete shape;
