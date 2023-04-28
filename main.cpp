@@ -13,7 +13,7 @@ int main() {
     shapes.push_back(std::make_unique<Rectangle>(5, 10));
     shapes.push_back(std::make_unique<Square>(5));
 
-    for (auto &shape : shapes) {
+    for (auto &shape: shapes) {
         shape->calcArea();
         shape->calcPerimeter();
         shape->print();

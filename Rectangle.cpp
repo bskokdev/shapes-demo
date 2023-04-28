@@ -1,6 +1,6 @@
 #include "Rectangle.h"
 
-Rectangle::Rectangle(): a(0), b(0) {}
+Rectangle::Rectangle() : a(0), b(0) {}
 
 Rectangle::Rectangle(double a, double b) {
     this->a = a;

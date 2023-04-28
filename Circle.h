@@ -14,13 +14,13 @@ private:
     double radius;
     double d;
 public:
-     Circle();
+    Circle();
 
-     explicit Circle(double radius);
+    explicit Circle(double radius);
 
-     void calcArea() override;
+    void calcArea() override;
 
-     void calcPerimeter() override;
+    void calcPerimeter() override;
 };
 
 

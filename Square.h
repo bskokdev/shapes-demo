@@ -10,6 +10,7 @@
 class Square : public Rectangle {
 public:
     Square() = default;
+
     explicit Square(double a);
 };
 
