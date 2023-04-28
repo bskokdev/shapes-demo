@@ -12,7 +12,7 @@ protected:
     double a;
     double b;
 public:
-    Rectangle() = default;
+    Rectangle();
 
     Rectangle(double a, double b);
 

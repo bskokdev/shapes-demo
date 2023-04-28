@@ -1,6 +1,8 @@
 #include "Circle.h"
 #include <cmath>
 
+Circle::Circle(): radius(0), d(0) {}
+
 Circle::Circle(double radius): radius(radius), d(2*radius) {}
 
 void Circle::calcArea() {

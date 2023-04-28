@@ -14,9 +14,9 @@ private:
     double radius;
     double d;
 public:
-     Circle() = default;
+     Circle();
 
-     Circle(double radius);
+     explicit Circle(double radius);
 
      void calcArea() override;
 
